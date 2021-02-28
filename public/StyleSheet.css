@@ -1,0 +1,151 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9e9e9;
+}
+
+span {
+    color: #91d18b;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #fff;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: black;
+}
+
+b {
+    color: #91d18b;
+}
+#main {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: rgb(214,214,214);
+    box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #fff;
+    display: flex;
+}
+
+#user_area {
+    width: 25vw;
+    background-color: #e9e9e9;
+    border-left: 1px solid #babecc;
+}
+
+#container {
+    width: 75vw;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background-color: #e9e9e9;
+}
+
+#chat_area {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #fff;
+}
+
+#userImg {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+#userHeading {
+    float: left;
+    font-weight: bold;
+    color: #91d18b;
+}
+
+#userHeading::after {
+    content: " : ";
+}
+
+#output_msg {
+    clear: both;
+    padding: 10px 15px;
+}
+
+#output_msg #msg {
+    float: left;
+    padding: 0;
+    margin: 0 10px;
+    color: #555;
+}
+
+#output_msg p {
+    float: left;
+    padding: 14px 0px 0 10px;
+    margin: 0 10px;
+    color: #555;
+}
+
+#feedback p {
+    color: #91d18b;
+    padding: 14px 0px 0px 10px;
+    margin: 0 10px;
+    font-style: italic;
+}
+
+#output_msg strong {
+    color: #575ed8;
+}
+
+#input {
+    position: relative;
+}
+
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #91d18b;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 2px 2px;
+}
+
+    button:hover {
+        background-color: #555;
+        color: #fff;
+    }
+
+#users {
+    box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#users li {
+        list-style-image: url('image/useravatar.png');
+        box-shadow: inset 2px 2px 5px #babecc, inset -2px -2px 5px #fff;
+        text-align:left;
+        padding:1px 5px;
+        font-weight:bold;
+}

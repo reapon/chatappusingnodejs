@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Max Chat</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/socket.io.slim.js"></script>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Scripts/default.js"></script>
+</head>
+<body>
+    <div id="main">
+
+        <div id="container">
+            <h2>Messages</h2>
+            <div id="chat_area">
+                <div id="feedback"></div>
+                <div id="output_msg"></div>
+
+            </div>
+            <div id="input">
+                <input id="message" type="text" placeholder="Type a Message" />
+
+                <input type="file" name="uploadFile" id="uploadFile" />
+            </div>
+            <button id="send">Send</button>
+        </div>
+
+        <div id="user_area">
+            <h1><span>m</span>Chat</h1>
+            <h3>Online Users</h3> <ul id="users"></ul>
+        </div>
+    </div>
+
+</body>
+</html>
